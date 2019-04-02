@@ -7,7 +7,7 @@ import ListItem from './ListItem';
 
 
 class EmployeeList extends Component {
-	componentWillMount() {
+	componentDidMount() {
 		this.props.employeesFetch();
 	}
 
